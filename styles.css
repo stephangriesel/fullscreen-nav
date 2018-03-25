@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Merriweather+Sans');
+
+body, html {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.wrapper {
+    height:100vh;
+    width:100%;
+    background-image:url(1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.open {
+    color:#FFFFFF;
+    font-size:30px;
+    float:left;
+    margin:1em 0 0 1em;
+    display:block;
+    cursor: pointer;
+}
+
+.nav {
+    width: 0%;
+    overflow-x: hidden;
+    height:100vh;
+    z-index: 1;
+    position: fixed;
+    background: rgba(164,179,182,0.9);
+    transition: .3s;
+    display: block;
+}
+
+.nav a {
+    color:#FFFFFF;
+    font-size:50px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Faster One', cursive;
+    padding:0.6em 0;
+    transition: .3s;
+    clear: left;
+}
+
+.close {
+    float:left;
+    margin:1em 0 0 1em;
+}
+
+.nav a:not(:first-child):hover {
+    background:#F8E9A1;
+}
+
